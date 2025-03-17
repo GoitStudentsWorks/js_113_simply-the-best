@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="/js_113_simply-the-best/favicon.svg" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+  <script type="module" crossorigin src="/js_113_simply-the-best/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/js_113_simply-the-best/assets/vendor-BJCTbvCM.js">
+  <link rel="stylesheet" crossorigin href="/js_113_simply-the-best/assets/vendor-DylYdcWb.css">
+  <link rel="stylesheet" crossorigin href="/js_113_simply-the-best/assets/index-BvLP0xT2.css">
+</head>
+<body>
+	<header class="header container" id="header">
+  <div class="header-logo-container">
+    <img
+      src="data:image/webp;base64,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"
+      srcset="/js_113_simply-the-best/assets/logo-2x-R3A3Mur-.webp 2x"
+      alt="Logo"
+    />
+    <p class="header-logo-text">jefferson*</p>
+  </div>
+
+  <button class="burger-btn" id="burger">
+    <svg class="icon-menu" width="28" height="28">
+      <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-menu"></use>
+    </svg>
+  </button>
+
+  <div class="menu-cont">
+    <button class="menu-btn" id="menu-btn">Menu</button>
+    <nav class="header-nav visually-hidden">
+      <ul class="header-nav-list" id="nav-list">
+        <li class="header-nav-list-item"><a href="#about">About me</a></li>
+        <li class="header-nav-list-item"><a href="#benefits">Benefits</a></li>
+        <li class="header-nav-list-item"><a href="#projects">Projects</a></li>
+        <li class="header-nav-list-item"><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <a href="#work" class="order-btn">Order the project</a>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-container">
+      <button class="close-menu-btn" id="close-menu">
+        <svg class="close-menu-icon" width="28" height="28">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-close-menu"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-list-item"><a href="#about">About me</a></li>
+        <li class="mobile-menu-list-item">
+          <a href="#benefits">Benefits</a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a href="#projects">Projects</a>
+        </li>
+        <li class="mobile-menu-list-item"><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#work" class="mobile-order-btn" id="close-menu"
+        >Order the project</a
+      >
+    </div>
+  </div>
+</header>
+
+	
+	<main>
+		<!-- Loads the specified .html file -->
+		<section class="hero container" id="hero">
+  <div class="hero-title-div">
+    <h1 class="hero-title">
+      Hello.<br />
+      I’m Fullstack developer Lloyd Jefferson.
+    </h1>
+  </div>
+  <ul class="hero-social-links">
+    <li class="hero-social-link-item">
+      <a
+        href="https://www.instagram.com/goitclub/"
+        target="_blank"
+        class="hero-social-link-item-text"
+        >IG</a
+      >
+    </li>
+    <li class="hero-social-link-item">
+      <a
+        href="https://www.facebook.com/goITclub/"
+        target="_blank"
+        class="hero-social-link-item-text"
+        >FB</a
+      >
+    </li>
+    <li class="hero-social-link-item">
+      <a
+        href="https://www.youtube.com/c/GoIT"
+        target="_blank"
+        class="hero-social-link-item-text"
+        >YT</a
+      >
+    </li>
+    <li class="hero-social-link-item">
+      <a
+        href="https://github.com/HolovchukNatalia/simply-the-best"
+        target="_blank"
+        class="hero-social-link-item-text"
+        >GH</a
+      >
+    </li>
+    <li class="hero-social-link-item contact-email">
+      <a
+        href="mailto:lloydjefferson@gmail.com"
+        class="hero-social-link-item-text"
+        >lloydjefferson@gmail.com</a
+      >
+    </li>
+  </ul>
+</section>
+
+		<section class="about container" id="about">
+  <h2 class="visually-hidden">About Me</h2>
+
+  <div class="top-content">
+    <div class="grey-frame">
+      <p class="frame-text">
+        I WORK WITH PEOPLE ALL OVER THE WORLD TO CREATE IMPRESSIVE AND
+        <span class="special-word">FUNCTIONAL</span>
+        <span class="special-word-site">WEBSITES</span> THAT REFLECT EACH
+        CLIENT'S UNIQUE PERSONALITY.
+      </p>
+    </div>
+
+    <div class="frame-photo">
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="/js_113_simply-the-best/assets/about-me-mob-DVM6Q_K_.webp 1x, /js_113_simply-the-best/assets/about-me-mob-2x-DybFksOC.webp 2x"
+          type="image/webp"
+        />
+        <source
+        media="(min-width: 768px) and (max-width: 1439px)"
+        srcset="/js_113_simply-the-best/assets/about-me-tab-B5bi9hqi.webp 1x, /js_113_simply-the-best/assets/about-me-tab-2x-D8Z2Mps1.webp 2x"
+        type="image/webp"/>
+        <source
+        media="(min-width: 1440px)"
+        srcset="/js_113_simply-the-best/assets/about-me-dsk-c7U-OXAm.webp 1x, /js_113_simply-the-best/assets/about-me-dsk-2x-Dl46bCnu.webp 2x"
+        type="image/webp"/>
+        
+        <img
+          src="/js_113_simply-the-best/assets/about-me-dsk-c7U-OXAm.webp"
+          alt="photo"
+          class="responsive-photo"
+        />
+      </picture>
+    </div>
+  </div>
+
+  <div class="impose-about-me">
+    <ul class="list-about-me">
+      <li class="ac about-me-item">
+        <button class="about-trigger" type="button">
+          <svg class="icon-arrow-down">
+            <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-down"></use>
+          </svg>
+          <svg class="icon-arrow-up">
+            <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-up"></use>
+          </svg>
+        </button>
+        <div class="list-label ac-header">ABOUT ME</div>
+        <div class="list-content ac-panel">
+          <p class="main-text ac-text">
+            I am Lloyd Jefferson, a talented programmer with extensive expertise
+            in software development. I have an understanding of different
+            programming languages ​​and technologies, always ready to improve my
+            skills. I always follow the latest trends and look for
+            unconventional, creative solutions to problems. I have a high level
+            of analytical skills and am able to effectively solve even the most
+            difficult tasks encountered on the way.
+          </p>
+          <p class="main-text ac-text"></p>
+          <p class="main-text ac-text">
+            Able to work both independently and in a team. I can effectively
+            cooperate with colleagues, exchanging ideas and finding optimal
+            solutions. Professional maturity allows you to calmly cope with
+            challenges and stressful situations, while maintaining a high
+            quality of work.I am always looking for opportunities for
+            self-improvement. I actively study new technologies and practices to
+            stay abreast of the latest innovations. I have a strong
+            understanding of various programming languages, frameworks and
+            architectural concepts that allow me to create efficient and
+            scalable software.
+          </p>
+        </div>
+      </li>
+
+      <li class="ac about-me-item">
+        <button class="about-trigger" type="button">
+          <svg class="icon-arrow-down">
+            <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-down"></use>
+          </svg>
+          <svg class="icon-arrow-up">
+            <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-up"></use>
+          </svg>
+        </button>
+        <div class="list-label ac-header">ROLE</div>
+        <div class="list-content ac-panel">
+          <p class="main-text ac-text">Frontend development</p>
+          <p class="main-text ac-text">HeadlessCMS,Wordpress</p>
+          <p class="main-text ac-text">Blender(enjoy)</p>
+        </div>
+      </li>
+
+      <li class="ac about-me-item">
+        <button class="about-trigger" type="button">
+          <svg class="icon-arrow-down">
+            <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-down"></use>
+          </svg>
+          <svg class="icon-arrow-up">
+            <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-up"></use>
+          </svg>
+        </button>
+        <div class="list-label ac-header">EDUCATION</div>
+        <div class="list-content ac-panel">
+          <p class="main-text ac-text">
+            2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
+          </p>
+          <p class="main-text ac-text">
+            2019 - 2020 / Advanced Web Development Certificate, GoIT IT School,
+          </p>
+          <p class="main-text ac-text">
+            New York 2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="tech-swiper-top">
+    <div class="tech-swiper">
+      <ul class="swiper-wrapper tech-list">
+        <li class="swiper-slide tech-item">
+          <p class="tech">HTML/CSS</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">JavaScript</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">React</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">Node.js</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">React Native</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">Soft Skills</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">HTML/CSS</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">JavaScript</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">React</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">Node.js</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">React Native</p>
+        </li>
+        <li class="swiper-slide tech-item">
+          <p class="tech">Soft Skills</p>
+        </li>
+      </ul>
+      <div tabindex="0" class="tech-button-next">
+        <svg class="right-arrow-icon" width="24" height="24">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-narrow-right"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+		<section class="benefits container" id="benefits">
+  <h1 class="title">Benefits of working with me</h1>
+  <div class="work_btn">
+    <ul class="advantages">
+      <li class="inf_list">
+        <svg class="icon-svg" width="24" height="24">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-user"></use>
+        </svg>
+        <h2 class="uppertitle">Expertise</h2>
+        <p class="info_text">
+          As a highly experienced developer, I have deep knowledge of
+          programming and website development.
+        </p>
+      </li>
+      <li class="inf_list">
+        <svg class="icon-svg" width="24" height="24">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-message"></use>
+        </svg>
+        <h2 class="uppertitle">Communication</h2>
+        <p class="info_text">
+          Understanding your needs and wants is my priority and I am always open
+          to discussions and corrections.
+        </p>
+      </li>
+      <li class="inf_list">
+        <svg class="icon-svg" width="24" height="24">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-brush"></use>
+        </svg>
+        <h2 class="uppertitle">Art</h2>
+        <p class="info_text">
+          Thanks to my creative nature, I am ready to accept challenges and help
+          you bring your ideas to life.
+        </p>
+      </li>
+      <li class="inf_list">
+        <svg class="icon-svg" width="24" height="24">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-hourglass"></use>
+        </svg>
+        <h2 class="uppertitle">Urgent execution</h2>
+        <p class="info_text">
+          I understand how important time is to you. Ready to work quickly and
+          efficiently, without reducing the quality of work.
+        </p>
+      </li>
+    </ul>
+    <a class="link_order" href="#work">Order the project</a>
+  </div>
+</section>
+
+		<section class="projects container" id="projects">
+  <h2 class="project-headline">Projects</h2>
+  <div class="swiper">
+    <ul class="swiper-wrapper">
+      <li class="swiper-slide project-item">
+        <div class="description-wrap">
+          <ul class="skills">
+            <li class="skill">
+              <p>#react</p>
+            </li>
+            <li class="skill">
+              <p>#js</p>
+            </li>
+            <li class="skill">
+              <p>#node js</p>
+            </li>
+            <li class="skill">
+              <p>#git</p>
+            </li>
+          </ul>
+          <p class="project-description">
+            Programming Across Borders: Ideas, Technologies, Innovations
+          </p>
+          <a
+            href="https://github.com/HolovchukNatalia/simply-the-best"
+            target="_blank"
+            class="project-link"
+            >See project</a
+          >
+        </div>
+        <div class="picture-wrap">
+          <picture>
+            <source
+              srcset="/js_113_simply-the-best/assets/project-1-dsk-tab-BxHQexmP.webp 1x, /js_113_simply-the-best/assets/project-1-dsk-tab-2x-CVEBLRoR.webp 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="/js_113_simply-the-best/assets/project-1-mob-BpGup9cp.webp 1x, /js_113_simply-the-best/assets/project-1-mob-2x--bX1FYC3.webp 2x"
+              media="(max-width: 767px)"
+            />
+            <img src="/js_113_simply-the-best/assets/project-1-mob-BpGup9cp.webp" alt="project 1" />
+          </picture>
+        </div>
+      </li>
+      <li class="swiper-slide project-item">
+        <div class="description-wrap">
+          <ul class="skills">
+            <li class="skill">
+              <p>#react</p>
+            </li>
+            <li class="skill">
+              <p>#js</p>
+            </li>
+            <li class="skill">
+              <p>#node js</p>
+            </li>
+            <li class="skill">
+              <p>#git</p>
+            </li>
+          </ul>
+          <p class="project-description">
+            Programming Across Borders: Ideas, Technologies, Innovations
+          </p>
+          <a
+            href="https://github.com/HolovchukNatalia/simply-the-best"
+            target="_blank"
+            class="project-link"
+            >See project</a
+          >
+        </div>
+        <div class="picture-wrap">
+          <picture>
+            <source
+              srcset="/js_113_simply-the-best/assets/project-2-dsk-tab-DQzU2dt5.webp 1x, /js_113_simply-the-best/assets/project-2-dsk-tab-2x-DUKP98La.webp 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="/js_113_simply-the-best/assets/project-2-mob-CGbbSOmY.webp 1x, /js_113_simply-the-best/assets/project-2-mob-2x-CvXaXJLs.webp 2x"
+              media="(max-width: 767px)"
+            />
+            <img src="/js_113_simply-the-best/assets/project-2-mob-CGbbSOmY.webp" alt="project 2" />
+          </picture>
+        </div>
+      </li>
+      <li class="swiper-slide project-item">
+        <div class="description-wrap">
+          <ul class="skills">
+            <li class="skill">
+              <p>#react</p>
+            </li>
+            <li class="skill">
+              <p>#js</p>
+            </li>
+            <li class="skill">
+              <p>#node js</p>
+            </li>
+            <li class="skill">
+              <p>#git</p>
+            </li>
+          </ul>
+          <p class="project-description">
+            Programming Across Borders: Ideas, Technologies, Innovations
+          </p>
+          <a
+            href="https://github.com/HolovchukNatalia/simply-the-best"
+            target="_blank"
+            class="project-link"
+            >See project</a
+          >
+        </div>
+        <div class="picture-wrap">
+          <picture>
+            <source
+              srcset="/js_113_simply-the-best/assets/project-3-dsk-tab-C-79nGCv.webp 1x, /js_113_simply-the-best/assets/project-3-dsk-tab-2x-5lEvEas8.webp 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="/js_113_simply-the-best/assets/project-3-mob-CgAUfWuV.webp 1x, /js_113_simply-the-best/assets/project-3-mob-2x-BKyVGUfB.webp 2x"
+              media="(max-width: 767px)"
+            />
+            <img src="/js_113_simply-the-best/assets/project-3-mob-CgAUfWuV.webp" alt="project 3" />
+          </picture>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div tabindex="0" class="navigation-wrap">
+    <div class="swiper-button-prev">
+      <svg class="projects-arrow" width="24" height="24">
+        <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-narrow-left"></use>
+      </svg>
+    </div>
+    <div tabindex="0" class="swiper-button-next">
+      <svg class="projects-arrow" width="24" height="24">
+        <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-narrow-right"></use>
+      </svg>
+    </div>
+  </div>
+</section>
+
+		<section class="faq container" id="faq">
+  <h2 class="faq-section-header">FAQ</h2>
+
+  <ul class="accordion-container">
+    <li class="ac faq-item item-1">
+      <button class="faq-trigger" type="button">
+        <svg class="icon-arrow-down">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-down"></use>
+        </svg>
+        <svg class="icon-arrow-up">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-up"></use>
+        </svg>
+      </button>
+      <h3 class="ac-header">
+        What programming languages ​​are most often used in your project?
+      </h3>
+      <div class="ac-panel">
+        <p class="ac-text">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </div>
+    </li>
+
+    <li class="ac faq-item item-2">
+      <button class="faq-trigger" type="button">
+        <svg class="icon-arrow-down">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-down"></use>
+        </svg>
+        <svg class="icon-arrow-up">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-up"></use>
+        </svg>
+      </button>
+      <h3 class="ac-header">How can I contact you?</h3>
+      <div class="ac-panel">
+        <p class="ac-text">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </div>
+    </li>
+
+    <li class="ac faq-item item-3">
+      <button class="faq-trigger" type="button">
+        <svg class="icon-arrow-down">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-down"></use>
+        </svg>
+        <svg class="icon-arrow-up">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-up"></use>
+        </svg>
+      </button>
+      <h3 class="ac-header">What are the deadlines for the project?</h3>
+      <div class="ac-panel">
+        <p class="ac-text">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources. Determining exact deadlines is a
+          difficult task, and it usually occurs during the planning phase of the
+          project.
+        </p>
+      </div>
+    </li>
+
+    <li class="ac faq-item item-4">
+      <button class="faq-trigger" type="button">
+        <svg class="icon-arrow-down">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-down"></use>
+        </svg>
+        <svg class="icon-arrow-up">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-up"></use>
+        </svg>
+      </button>
+      <h3 class="ac-header">Do you provide advice or support?</h3>
+      <div class="ac-panel">
+        <p class="ac-text">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources. Determining exact deadlines is a
+          difficult task, and it usually occurs during the planning phase of the
+          project.
+        </p>
+      </div>
+    </li>
+
+    <li class="ac faq-item item-5">
+      <button class="faq-trigger" type="button">
+        <svg class="icon-arrow-down">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-down"></use>
+        </svg>
+        <svg class="icon-arrow-up">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-up"></use>
+        </svg>
+      </button>
+      <h3 class="ac-header">What payment methods do you accept?</h3>
+      <div class="ac-panel">
+        <p class="ac-text">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems such as PayPal, as well as
+          payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+        </p>
+      </div>
+    </li>
+
+    <li class="ac faq-item item-6">
+      <button class="faq-trigger" type="button">
+        <svg class="icon-arrow-down">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-down"></use>
+        </svg>
+        <svg class="icon-arrow-up">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-up"></use>
+        </svg>
+      </button>
+      <h3 class="ac-header">
+        What does the process of developing a software product look like from
+        idea to implementation?
+      </h3>
+      <div class="ac-panel">
+        <p class="ac-text">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems such as PayPal, as well as
+          payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+        </p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+		<section class="covers container" id="covers">
+  <h2 class="visually-hidden">COVERS</h2>
+  <ul class="covers-wrapper">
+    <li class="covers-line">
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-5-b2r--aTS.webp"
+          srcset="/js_113_simply-the-best/assets/cover-5-b2r--aTS.webp 1x, /js_113_simply-the-best/assets/cover-5-2x-BOje4ozo.webp 2x"
+          alt="wallet"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-10-CRV8UWMT.webp"
+          srcset="/js_113_simply-the-best/assets/cover-10-CRV8UWMT.webp 1x, /js_113_simply-the-best/assets/cover-10-2x-Alanc3jK.webp 2x"
+          alt="starlight studio"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-6-B9KRxiMt.webp"
+          srcset="/js_113_simply-the-best/assets/cover-6-B9KRxiMt.webp 1x, /js_113_simply-the-best/assets/cover-6-2x-Cgy58ghn.webp 2x"
+          alt="chego"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-5-b2r--aTS.webp"
+          srcset="/js_113_simply-the-best/assets/cover-5-b2r--aTS.webp 1x, /js_113_simply-the-best/assets/cover-5-2x-BOje4ozo.webp 2x"
+          alt="wallet"
+        />
+      </div>
+    </li>
+    <li class="covers-line">
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-2-Bpbb3dtZ.webp"
+          srcset="/js_113_simply-the-best/assets/cover-2-Bpbb3dtZ.webp 1x, /js_113_simply-the-best/assets/cover-2-2x-B3Wqk-Lf.webp 2x"
+          alt="mimino"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-1-B-N7_SWX.webp"
+          srcset="/js_113_simply-the-best/assets/cover-1-B-N7_SWX.webp 1x, /js_113_simply-the-best/assets/cover-1-2x-CzYKZzNt.webp 2x"
+          alt="power pulce"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-9-C1lr-R4J.webp"
+          srcset="/js_113_simply-the-best/assets/cover-9-C1lr-R4J.webp 1x, /js_113_simply-the-best/assets/cover-9-2x-wxx3tOh7.webp 2x"
+          alt="learning English"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-2-Bpbb3dtZ.webp"
+          srcset="/js_113_simply-the-best/assets/cover-2-Bpbb3dtZ.webp 1x, /js_113_simply-the-best/assets/cover-2-2x-B3Wqk-Lf.webp 2x"
+          alt="mimino"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-1-B-N7_SWX.webp"
+          srcset="/js_113_simply-the-best/assets/cover-1-B-N7_SWX.webp 1x, /js_113_simply-the-best/assets/cover-1-2x-CzYKZzNt.webp 2x"
+          alt="power pulce"
+        />
+      </div>
+    </li>
+    <li class="covers-line">
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-5-b2r--aTS.webp"
+          srcset="/js_113_simply-the-best/assets/cover-5-b2r--aTS.webp 1x, /js_113_simply-the-best/assets/cover-5-2x-BOje4ozo.webp 2x"
+          alt="wallet"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-10-CRV8UWMT.webp"
+          srcset="/js_113_simply-the-best/assets/cover-10-CRV8UWMT.webp 1x, /js_113_simply-the-best/assets/cover-10-2x-Alanc3jK.webp 2x"
+          alt="starlight studio"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-3-Dq86maC6.webp"
+          srcset="/js_113_simply-the-best/assets/cover-3-Dq86maC6.webp 1x, /js_113_simply-the-best/assets/cover-3-2x-urO36tpe.webp 2x"
+          alt="embroidery"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-6-B9KRxiMt.webp"
+          srcset="/js_113_simply-the-best/assets/cover-6-B9KRxiMt.webp 1x, /js_113_simply-the-best/assets/cover-6-2x-Cgy58ghn.webp 2x"
+          alt="chego"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-5-b2r--aTS.webp"
+          srcset="/js_113_simply-the-best/assets/cover-5-b2r--aTS.webp 1x, /js_113_simply-the-best/assets/cover-5-2x-BOje4ozo.webp 2x"
+          alt="wallet"
+        />
+      </div>
+    </li>
+    <li class="covers-line">
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-4-CZRh3_pS.webp"
+          srcset="/js_113_simply-the-best/assets/cover-4-CZRh3_pS.webp 1x, /js_113_simply-the-best/assets/cover-4-2x-D0vsGpBq.webp 2x"
+          alt="vegetables"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-7-DcY0iDcX.webp"
+          srcset="/js_113_simply-the-best/assets/cover-7-DcY0iDcX.webp 1x, /js_113_simply-the-best/assets/cover-7-2x-zycNOMnS.webp 2x"
+          alt="body in shape"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-8-CRd4bEfA.webp"
+          srcset="/js_113_simply-the-best/assets/cover-8-CRd4bEfA.webp 1x, /js_113_simply-the-best/assets/cover-8-2x-DBBYtTFW.webp 2x"
+          alt="fruits"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-4-CZRh3_pS.webp"
+          srcset="/js_113_simply-the-best/assets/cover-4-CZRh3_pS.webp 1x, /js_113_simply-the-best/assets/cover-4-2x-D0vsGpBq.webp 2x"
+          alt="vegetables"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-7-DcY0iDcX.webp"
+          srcset="/js_113_simply-the-best/assets/cover-7-DcY0iDcX.webp 1x, /js_113_simply-the-best/assets/cover-7-2x-zycNOMnS.webp 2x"
+          alt="body in shape"
+        />
+      </div>
+    </li>
+    <li class="covers-line">
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-9-C1lr-R4J.webp"
+          srcset="/js_113_simply-the-best/assets/cover-9-C1lr-R4J.webp 1x, /js_113_simply-the-best/assets/cover-9-2x-wxx3tOh7.webp 2x"
+          alt="learning English"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-6-B9KRxiMt.webp"
+          srcset="/js_113_simply-the-best/assets/cover-6-B9KRxiMt.webp 1x, /js_113_simply-the-best/assets/cover-6-2x-Cgy58ghn.webp 2x"
+          alt="chego"
+        />
+      </div>
+      <div class="cover-item">
+        <img
+          class="cover-image"
+          src="/js_113_simply-the-best/assets/cover-9-C1lr-R4J.webp"
+          srcset="/js_113_simply-the-best/assets/cover-9-C1lr-R4J.webp 1x, /js_113_simply-the-best/assets/cover-9-2x-wxx3tOh7.webp 2x"
+          alt="learning English"
+        />
+      </div>
+    </li>
+  </ul>
+</section>
+
+		<section class="reviews container" id="reviews">
+  <div class="container-reviews">
+    <h2 class="reviews-title">REVIEWS</h2>
+
+    <div class="swiper reviews-slider">
+      <ul class="swiper-wrapper reviews-list"></ul>
+    </div>
+    <div class="slider-controls" id="reviews-swiper-button">
+      <button
+        class="slider-btn prev swiper-button-prev"
+        aria-label="Previous review"
+      >
+        <svg class="slider-icon">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-narrow-left"></use>
+        </svg>
+      </button>
+      <button
+        class="slider-btn next swiper-button-next"
+        aria-label="Next review"
+      >
+        <svg class="slider-icon">
+          <use href="/js_113_simply-the-best/assets/sprite-SpD-jy35.svg#icon-arrow-narrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+	</main>
+
+	<footer class="work container" id="work">
+  <div class="footer-logo-container">
+    <div class="thumb">
+      <picture>
+        <source
+          media="(min-width: 1140px)"
+          srcset="data:image/webp;base64,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 1x, data:image/webp;base64,UklGRmwOAABXRUJQVlA4WAoAAAAwAAAAiwAAiwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIaAIAAA2gVmt73bh6y0BFkK8IqiKIimAcBHYQXBBohCA2gsgIkkFQhYGGwRcE1WDIzbH9fau/zomICcBIjbULImMMxl4KF77kXDCXplo6g6kaQ4YW1nI+J56ead4s5tDapeM+8aSct5hRV7vcn6Zimg1mt6ptiJPYbDHL5F2Io3MHzDZ5F+KoaG8w5+QReDz1FnPf1H0cifHfMf/kSyhjoCNk3NYrfp09QEo67PKr6i3kpGPbv2bzC6LG3L5i8wPC7i/tcPUviLvP/VB2C4Fjm4ehPUT+s+YhzBEym+OqDOAhNdXhucaIhe3f/hmqIXjb8hMekhu/e6yB7FVJD3nhcFg/0kB6qtoHvHjwXbnTQH5TxTteAdh0typokCjdqFUAH67I6sDlAsBBiU0EUGvh7QMg0oLLBQ5qrE5Y6mF5htWDS4b0QMVCkVYXpAlaqMJoYkGaMOafBf73/3+zLUYR5Z8FMyni67JQBDNpIltFZF2UQmrIwHmpieTUcAZOlRoSULJTQgKAjzcl9FexUUK6Ktmp4AM3g1dBvJWIFMD5FrqNAgLuxsqIx+le6bx4AQ+2FQnH6RGsD8IFPJxKJVrEkztvBOP+Ge72ggU8Hb82YnUY8L0hoTgOUVZHIxKvMSiv/4i0wsC5Owi0xuDxcy/ODi9sL3thdnhp+3kQZY0Xx+5IYpTfeHneHUgIXmGEvGo2InQRoyzvX55mr+ww2tg39cydAkbM7988zRivMfIYnKeZKuGE8cfgPM0QdydMMwZbVzOTAmO6pz672s1G+oiYOKeenftpJ8fpfMIsckqfbC0tDBkzulIKXzhnjBRWUDggDgoAADArAJ0BKowAjAA+bTCTR6QioaEnNxuogA2JZwiQJwRqw72Oxt4Od806Peiq0h4b+W72soWd3+JvhDwAnZ5b+lE0APzT/zvVs+nvPF9Tfsz8BH82/sP/S9eH2Gft77Gv6hGFHy7TPyhNJFGcs+Qr7v7jY0OTAgs8mTOsykt0fhu1bpUQV/orBgC1eWS0Y4qO+vSyt0mmMm+S0acf0QoKI/ZFVPnKqOQ9JGX3g0N7JI2BCedH2h6ohfVIEWM0ypNNP4Xo7nJNCFsAIZeoTXzXavoesTu2vNOFvRJLaKcE+DGhdSYWpYrJDS/O1E6GIq4mHsS/51SPj0cgGzLfdWUM99r6HYQ6SECsX2P/GRmtegA6K/Sdo4ORHx45qyi6f6pXg6xEbITgAeNym03Pp6N7D6qwFkaiQdFlmv2IIAPzc/7UScGLGxSvftpA10wjWJJ8ucmaf+rZ3BZccN/tOXsJeQA1QAD+/zm0t//5KAevYhZpIga6h2XDRL8ti2QtWhx61J7S6TzuPeJDrQqyqtF3lFW6QUiNzwh9SH+5W5WDTZDaOOvDzvsptOFe/gfaRb1nz7rsdZ2Y9EcaCILkssa7aSIze0WMlKkUBvL2gMFdKlxmDwJdlWMyRRI965cJEaTARUwLpC3euFz2KRPBHrSLxU+4oDYxg71J19CsazVT2OAcv/QYK58f/ZrUOvrBL0cHFxdoNHCGR/kEJuOV/wQgQuxMTAHv1UIpI9S9ZJPgJN4WrZA7cIJbqrsGxu5Wlm9FiZTEWD1l5QjaPMrtF24foQlVc2vBdPZerCY3Jd+ZnA/t/kmwuISNqDri8Zvx2Dvw1XfYOaSDtCIBwEcSZgfyuu+yvXpfX1NqKRALGPIYPfR2WjSgHP65NDm6jqlxnwyLDrSWVBqyeXo5AynSVN4v8wpsbEQ0I/IKmXXy8UCMxdh9+pLrgH1fIqdpBkq1mYIE4G6HPfws9bDCajLrHkdiwCRq/QQWUi6hHDuXjeCBAhj/TcoBMogOaoEKL/K75ehTg8Gc01vn7uZXrUt814ia0ogvx4B6t4Fx7KOlfePPJqivmKZqa0rQ0SHFGjNfelp2VY+BOdpN0avOKC9LZ2vY6mIjKBYfCyQW6Xo3jZAHZ6BA39PZIxbOWz44Ck7dMTVuP3BTm9cWqVCSVr/qOnM67pDPGyEASbM3tFMGO3g7HFqbyOy38E76tQQIbaiwfQeBiGyl9/uRcfSoD1uujCpCxbC1qB51mfiRQxxP3cGY2CoQ/Ko5Peovb8MkZ9aYMrfH7A6CgvZrL7ELYHqGX0HpE/T27FVSodwghYr4ZYr3WCuN6Q0ageIOg2JLFtcD4a2sD34ACJXDr/mpi3LNMxLEEz9ZgPkdXwHJCEyclw6wEDMPHh+ZafBLsd9WwXSv0wT2cDOotLL2NKhOcko3j7Jwhl1/BRCKyC+z0wAG0ftHD61+H+J0fePBlb0vhNWW7vp2sbrtTrHFb5LcnkHX8f8f/YPvsm1+4/+ppYwidCFXWMOZ1tX+aSYIsl1ZcPAe/zIh+K9xGLgeIvbvxf8tO5MKMxhuVbpCb4vpIya8AorgI2XDpmMsNAxBk/mJTm8Qww8hoFKwASY7E9od5AjbqePAOaQwij7sJv+kylQSxaKL7oyXWNA0MvF2dap5bC5lQDhWeom8yz6jnTePOVEj9o+m2GCQNR5RFLBthI5YXpGp1b8VroTB3LI5Hbkhv8tPwqwIqALjQi+SaxtbQIwNR8wTWdL1lcR3vjCSS3tFbNBI0BgL9vPGxqqVYn9GO65P/vmcnr/Ls/+oBLD5jqhWMpoc9sspdZH1kfma/dDO8f+qbEXwWKZS4ws3u5Vb98RNkp7KTFdjKGIZsBoiJ6S1QrJI3PJrcUzo0iNtEP/obfLkUwT6/IeVD7fbdT7bF9+QYlW04f9lSBmim/XfzHo4H3qhLLUIGyXcXffBXHyl/6hJ6WzaUQ7ArNVJS3VghNaARajZn+DF80fA4zvIgTtj6AEk9+vYcyvg6HKdCvNyXBMZe29Yry9YCVWqi46uc/W1SusDpzjsDdQWE1BWIFenH1i6U9U6EvKmW8O1kP+awq/e7KRg1euVer1GxCF4/BETN7B7nk0LF0Vdd0NT8PGJ2YXg7g5i4+eyCnTMnWS/9qzy9n1AiwArLiB77fVHrruJFFOarMScyOmW/zkk+JWdHifNVt/s3yz+rei10RubTV7+8+GQE5tBMg8VhZXRFi/6QHE6CdIi6lYALSSYh+sonBaNw+4DHz15fWT5oaosLS7CBiQfVtnZJN49oErTjuIN0tDXQcy62SGtk0b+nOtGAbTrAWqoeLUIHAlH874rFShf6wC5Y2jddcn0GJQZCq2CSmLBn0DsDPh9A/3q7XjYoEMelM6yOPalM0BK7SP1xmABFTQ9x+Pf6l8SxYwVlVL2FpAR4bmPY2xnQT4dqKNBOSZKmavx15iKrriZ/ODp9eDfmxbHYX2W8ZDIeQ/Is0LkvesAdkrGdhZar6/IVzoRlc/RhwIzk90kvev+nwV9g7YxVuUG3ipKb4t7tiaJyn2+j9flA5i6oHky9wf2QHdhtHLytcA7pvFOEisTcgXJfgtIySsMAegihpP6XzztJSODu9eOTCToFtghH9RKfMarfcbotr8kaz7P5BTe72ADbTyRgUfk7cZcNzcAZtj4DU+aJEp7iaGDLyG0radMKzJbputsnVvd/dAxlo41K6MfE7iSjfBvKsykdoKCIvGKghA8cXRbqIStsYJroUQPffh/glsc4wTZjAnTnkHjIMsixVoPwcjSEYKEeCUb5sF6brIMOKoKZcUm7Q90zTOkfm97PJGYUK0B+G1eKHSASfXk7vdfuyZIP7QTJFZd2/TUAPujvrrpScwqbifAhd4Tzw17H3tBj+tR4VEiLHzOYEKIwVNeQZwO2H/d2gkSJ0z7kdzXMPujYRHItKYe5J0iBjZXSFMwEAs5k/b8X4Jfckdq2mJ5DAXmQD3KFd3jSplx5f5z4FrcWrMSDsxJR6EAB3WKxDaxbq23JjarpTy2v5+kPWxNu53XHCG3NiuyPZW8YhITPrD1tcj9E5c2I5gXnkBbRlqvfr39zns4q4FT/8kzCqZ+I5uKgtMTwjUHG02xyMgsVUgKRpS/GsUdVdEDMv4zYBQUmt0NuAJJvdfHSYUUgqmnxj/z2+rflC//wZU3vbhXOeAD9MxRW9qbRJU4FqDddd1s0aqucvHJ5ef6eF86rgaYbzLDZgIxM46XV5xa+8vqk4JNWsTUfoP2vXIyVmpRjRR7VPjH74PHYu27YGZp5KUEN9bYeXBkHcPH7xAnkF+/XAuKhbMhPNv2tnXyf+1dG/loKP1Ub+74kYBIlVAeqQFiHWOwRzt4vf++8AMtINuI+5/MlM4WoQCyJOBw94Lg2ACvvJ3HweAH2h44rdSHPgAAAA== 2x"
+          type="image/webp"
+        />
+        <source
+          srcset="data:image/webp;base64,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 1x, data:image/webp;base64,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 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 320px)"
+          srcset="data:image/webp;base64,UklGRswEAABXRUJQVlA4WAoAAAAwAAAAKwAAKwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIjgAAAAFnYJBt5OCN4GZwb/QREdGnjJ3CTbVty3LjsBHAvgAUcYjA6hCAEL79Ef4NRnf7Wv32rGwR/Z8AIL/52pD7ahyv+diIs7hnayPXgY4VpuCmaGB+in18aqW5q6Zw1ww/Guence1f/KvZfzTOU9O4aCpzTcb8FPs4d0UDuoo0sItWBzDvKE7cg1n/wri9GABWUDggSAIAADAMAJ0BKiwALAA+bTSVSCQjIiEnKACADYljAMD9ZsgEs1vaWcxvwNLXMo8a30f/zPcF/k/9X/2PXL9BP9ikn1ujZg2VnxJHhozwRS9MgRF+P+hlxn+FoKUO5yYj0VNKVYbM/18r8gqvkYAA/v34muFA7CKYPJZcoNmfpQEUnqNCN33fgPPlZ8wjU4MkSzYJ8nrCS1B6LZd66sbGMx2+rYVXMnt6GeIBDaOR6svl8Z2TrC+54I7NzzfpmZGpEOd9mhRYU2mOTnbXKKHGhMJ76w4OdELKlsiUoXvWog8mgjnXBy1/5UJM9v17odMXXfNWK7WJgd+IrciGIbogHK8CGeS28xTOSS2ocI52QeuK4jB9aGVzdKsOw7nk+KGaEa1OVcfc2qu1i5cf+PB/drpCZPyzxUaw3vVy57SOFeaOmUf0St1PAxR6H+ZDhuwsj08PPo3t330UevRCYsWqbq/uM6QODVuULV+ImXX13OJulXeJjwyf996JLYraZ4foL/5Kk/gv0kyjYxKMi088JX+f5zp5pmublv1I8dH6Ddvp44FVfcfyh0YY5vncvfrqnnSYd6pgCPCW+dtCSP+6Mj42umJHTLm/++3/x28rrMCoziq5+t7doLg6uUwaAPtX6b05wGLm2Cab07w6ZqVieFRxLc3Cj/apPWzUHPb5yDM/RTxnsNRf/Bz8YSwI5AcbRB5HGY4QQNwP9ujKiVv2M6kgLEfszblWrsAAvk3488Y7kftQFE8/knI6BxP9BmoYNHSKUdnm6WO0AAAA 1x, data:image/webp;base64,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 2x"
+          type="image/webp"
+        />
+        <img
+          src="data:image/webp;base64,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"
+          alt="lloydjefferson"
+        />
+      </picture>
+    </div>
+    <h2 class="footer-text first-line">
+      let's <span class="footer-accent"> work </span>
+      <span class="second-line"> together</span>
+    </h2>
+  </div>
+  <form class="footer-form" autocomplete="on" novalidate>
+    <div class="input-list">
+      <input
+        class="footer-input email-input"
+        name="email"
+        placeholder="clients@gmail.com"
+        required
+        autocomplete="email"
+        pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+      />
+      <p class="email-message"></p>
+      <input
+        type="text"
+        class="footer-input comments-input"
+        name="comments"
+        placeholder="comments"
+        required
+        autocomplete="off"
+      >
+    </div>
+    <button type="submit" class="send-btn">Send</button>
+  </form>
+  <ul class="contact-info">
+    <li class="contact-item">
+      <a href="mailto:lloydjefferson@gmail.com" class="contact-link">
+        lloydjefferson@gmail.com
+      </a>
+    </li>
+    <li class="contact-item">
+      <a href="tel:+3801111111111" class="contact-link"> +380 11 1111 11 11 </a>
+    </li>
+  </ul>
+</footer>
+
+<div class="modal hidden">
+  <div class="modal-content">
+    <button class="close-modal">          
+      <svg class="close-icon" width="14" height="14" viewBox="0 0 24 24">
+        <path d="M6 6L18 18M6 18L18 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <h3 class="modal-header">Thank you for your interest in cooperation!</h3>
+    <p class="modal-text">The manager will contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch.</p>
+  </div>
+</div>
+
+
+
+</body>
+</html>
