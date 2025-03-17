@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/simply-the-best/",
+    "build": "vite build --base=/js_113_simply-the-best/",
     "preview": "vite preview"
   },
   "devDependencies": {
